@@ -11,3 +11,10 @@ pass
 $ uname -a
 Linux gromero16 4.4.0-130-generic #156-Ubuntu SMP Thu Jun 14 08:51:21 UTC 2018 ppc64le ppc64le ppc64le GNU/Linux
 ```
+
+After refactor: looks like that VSX never causes a Unavailable Exception:
+```
+~/git/vsx_una_$ ./vsx_una; ./vsx_una_FP_VEC
+pass
+pass
+```
